@@ -10,7 +10,10 @@ import java.util.Collections;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
-
+/*
+ * https://koitp.org/problem/SDS_PRO_10_1/read/
+ * 그래프 순회
+ */
 public class source {
 	public static class Vertex {
 		public Vertex() {

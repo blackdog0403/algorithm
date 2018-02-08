@@ -9,9 +9,9 @@ public class source {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		// ÇÑ ÁÙ¿¡ Á¤¼ö ÇÏ³ª°¡ ÁÖ¾îÁö´Â °æ¿ì
+		// í•œ ì¤„ì— ì •ìˆ˜ í•˜ë‚˜ê°€ ì£¼ì–´ì§€ëŠ” ê²½ìš°
 		int N = Integer.parseInt(br.readLine());
-		// ÇÑ ÁÙ¿¡ Á¤¼ö N°³°¡ °ø¹éÀ¸·Î ºĞ¸®µÇ¾î ÁÖ¾îÁö´Â °æ¿ì
+		// í•œ ì¤„ì— ì •ìˆ˜ Nê°œê°€ ê³µë°±ìœ¼ë¡œ ë¶„ë¦¬ë˜ì–´ ì£¼ì–´ì§€ëŠ” ê²½ìš°
 //		int[] num = {1,5,3,4,2,5,5,5,2,2,2}; //new int[N];
 		int[] num = new int[N];
 		int[] count = new int[N];

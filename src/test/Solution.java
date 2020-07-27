@@ -1,16 +1,19 @@
 package test;
 
-import java.io.*;
-import java.math.BigDecimal;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
-
-import static java.lang.Integer.*;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
    //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File("D:\\dev\\algorithm\\src\\test\\input.txt"))));
+        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File("/Users/kwangyou/Documents/dev/algorithm/src/test/input.txt"))));
         BufferedWriter wr = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
